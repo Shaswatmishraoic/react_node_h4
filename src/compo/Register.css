@@ -65,3 +65,10 @@ input{
     color: #3498db;
     background-color: white;
 }
+.registor-done{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 43%;
+    top: 240px;
+}

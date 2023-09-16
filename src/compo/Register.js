@@ -57,7 +57,7 @@ function Register() {
         <input type="password" id="password" name="password" onChange={changeHandle} placeholder="Enter Password" required/>
         </div>
         <button onClick={submitform} className='buttonregister'>Register</button>
-        {serverRes === undefined ? "":<div>{serverRes.msg}</div>}
+        {serverRes === undefined ? "":<div className='registor-done'>{serverRes.msg}</div>}
       </form>
     </div>
     </>
