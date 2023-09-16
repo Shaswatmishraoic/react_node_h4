@@ -1,0 +1,56 @@
+.page_login{
+    background-image: linear-gradient(to left, #78b9e4, #e67669);
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.formdesign2{
+    border: 1px solid black;
+    width: 50%;
+    position: relative;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(168, 99, 99);
+}
+.email2{
+    position: absolute;
+    left: 42%;
+    top: 90px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.password2{
+    position: absolute;
+    left: 38%;
+    top: 130px;
+    font-size: 16px;
+    font-weight: bold;
+}
+input{
+    border-radius: 2px;
+    height: 20px;
+    border: 1px solid rgb(222, 209, 209);
+}
+.buttonlogin{
+    position: absolute;
+    left: 47%;
+    top: 200px;
+    font-size: 20px;
+    background-color: #3498db;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.buttonlogin:hover{
+    color: #3498db;
+    background-color: white;
+}
+.message-for-log{
+    margin-top: 40px;
+    /*do not forget to make margintop-0 in responsive*/
+}
+.welcome{
+    font-size: 35px;
+    font-weight: bold;
+}

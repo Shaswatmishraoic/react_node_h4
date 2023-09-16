@@ -1,0 +1,67 @@
+.fine-reg{
+    background-image: linear-gradient(to left, #78b9e4, #e67669);
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.message-for-reg{
+    margin-top: 40px;
+}
+.formdesign{
+    border: 1px solid black;
+    width: 50%;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 280px;
+    box-shadow: 2px 2px rgb(168, 99, 99);
+}
+.head{
+    position: absolute;
+    left: 45%;
+}
+.name{
+    position: absolute;
+    left: 41%;
+    top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.phone{
+    position: absolute;
+    left: 38%;
+    top: 85px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.email{
+    position: absolute;
+    left: 42%;
+    top: 120px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.password{
+    position: absolute;
+    left: 38%;
+    top: 155px;
+    font-size: 16px;
+    font-weight: bold;
+}
+input{
+    height: 20px;
+}
+.buttonregister{
+    position: absolute;
+    left: 45%;
+    top: 200px;
+    font-size: 20px;
+    background-color: #3498db;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.buttonregister:hover{
+    color: #3498db;
+    background-color: white;
+}
