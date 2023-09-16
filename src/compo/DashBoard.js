@@ -5,7 +5,7 @@ function DashBoard() {
   // const token = localStorage.getItem("token")
   useEffect(()=>{
     axios
-          .get(`http://localhost:5000/api/category/Dashboard`)
+          .get(`https://logandsign.onrender.com/api/category/Dashboard`)
           .then((res)=>{
             console.log(res.data)
           })

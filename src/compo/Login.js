@@ -20,7 +20,7 @@ function Login() {
       console.log(inputs)
 
       axios
-      .post(`http://localhost:5000/api/category/login`, inputs)
+      .post(`https://logandsign.onrender.com/api/category/login`, inputs)
       .then((res) =>{
         console.log(res.data)
         setServerRes(res.data)

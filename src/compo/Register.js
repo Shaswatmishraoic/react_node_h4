@@ -21,7 +21,7 @@ function Register() {
         e.preventDefault()
         console.log(inputs)
     axios 
-            .post(`http://localhost:5000/api/category/register`, inputs)
+            .post(`https://logandsign.onrender.com/api/category/register`, inputs)
             .then((res) =>{
                 console.log(res.data)
                 setServerRes(res.data)
